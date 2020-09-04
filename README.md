@@ -1,7 +1,9 @@
 # OverlapArea
 This program computes the Intersection over Union of two rectangles
 as a percent:
+
                  Area(Intersection of R1 and R2) * 100
+		 
   IoU =    -----------------------------------------------------
            Area(R1) + Area(R2) - Area(Intersection of R1 and R2)
 
