@@ -1,10 +1,9 @@
 # OverlapArea
 This program computes the Intersection over Union of two rectangles
 as a percent:
-                 Area(Intersection of R1 and R2) * 100
-  IoU =    -----------------------------------------------------
-           Area(R1) + Area(R2) - Area(Intersection of R1 and R2)
-
+   
+![IoU = \frac {Area(R1 \cap R2) * 100 } {Area(R1) + Area(R2) - Area(R1 \cap R2)}](https://latex.codecogs.com/svg.latex?IoU%20=%20\frac%20{Area(R1%20\cap%20R2)%20*%20100%20}%20{Area(R1)%20+%20Area(R2)%20-%20Area(R1%20\cap%20R2)})
+   
 The answer will be specified as a percent: a number between 0 and 100.
 For example, if the rectangles do not overlap, IoU = 0%.  If they are
 at the same location and are the same height and width, IoU = 100%.
