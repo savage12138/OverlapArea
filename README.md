@@ -1,4 +1,4 @@
-# OverlapArea
+# Overlap Area
 This program computes the Intersection over Union of two rectangles
 as a percent:
    
